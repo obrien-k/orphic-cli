@@ -1,0 +1,101 @@
+<template>
+    <div class="orphic-cli">
+        <div class="orphic-cli__7a5df7bcd54f4044b8bbb4edf956390e">ORPHIC CLI</div>
+    </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss">
+.orphic-cli {
+    &__7a5df7bcd54f4044b8bbb4edf956390e {
+        font-family: Helvetica World;
+        font-size: 72px;
+        font-weight: 700;
+        text-decoration: underline;
+        color: #26dc7b;
+    }
+}
+</style>
+<template>
+    <div class="orphic-cli-grey">
+        <div class="orphic-cli__f496cbc579af4540a678d9b67a469a80">ORPHIC CLI</div>
+    </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss">
+.orphic-cli-grey {
+    &__f496cbc579af4540a678d9b67a469a80 {
+        font-family: Helvetica World;
+        font-size: 72px;
+        font-weight: 700;
+        text-decoration: underline;
+        color: $color#333;
+    }
+}
+</style>
+
+<template>
+    <div class="component-13-–-1"></div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss">
+.component-13-–-1 {
+
+}
+</style>
+<template>
+    <div class="component-9-–-1">
+        <div class="component-9-–-1__e3f9bc585e2f4d85a07884c4976eefed">D
+R
+A
+G
+
+B
+A
+C
+K</div>
+    </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss">
+.component-9-–-1 {
+    &__e3f9bc585e2f4d85a07884c4976eefed {
+        width: 150px;
+        font-family: Helvetica World;
+        font-size: 72px;
+        color: #83cdff;
+    }
+}
+</style>
+<template>
+    <div class="component-9-–-1">
+        <div class="component-9-–-1__e3f9bc585e2f4d85a07884c4976eefed">D
+R
+A
+G
+
+B
+A
+C
+K</div>
+    </div>
+</template>
+
+<script>
+export default {};
+</script>
