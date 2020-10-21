@@ -10,11 +10,11 @@ const app = express();
 app.get("/api/psa", (req, res) => {
   let psa = [
     {
-      psa.accounts: {[
-      "id": String,
-      "type: String
-      ]},
-      psa.databases: {[
+      psa_accounts: [
+      "id", "String",
+      "type", "String"
+      ],
+      psa_databases:[
       // MYSQL PSEUDO CODE
       /*
 SELECT domains.name AS domain_name,
@@ -25,15 +25,15 @@ AND db_users.db_id = data_bases.id
 AND db_users.account_id = accounts.id
 ORDER BY domain_name;
       */
-      ]}
+      ]
     },
     {
-      psa.db_users: {[
-      "id": String,
-      "login": Number,
-      "account_id": Number,
-      "db_id": Number
-      ]},
+      psa_db_users: [
+      "id", String,
+      "login", Number,
+      "account_id", Number,
+      "db_id", Number
+      ],
       publication: "Bloomberg",
       imageURL:
         "https://prod.static9.net.au/_/media/2019/09/02/10/36/nine_news_melbourne_1600x900_fullstory_nightly6pm.jpg"
