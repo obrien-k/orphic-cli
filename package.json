@@ -1,7 +1,7 @@
 {
   "name": "@obrienk/orphic-cli",
-  "version": "0.0.1",
-  "description": "Mystifyingly headless",
+  "version": "0.0.4",
+  "description": "Mystify your peers with automated deployment and version control",
   "main": "src/index.js",
   "bin": {
     "@obrienk/orphic-cli": "bin/orphic-cli",
@@ -30,6 +30,7 @@
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
     "pkg-install": "^1.0.0"
+    "express":"^4.0.0"
   },
   "files": [
     "bin/",
