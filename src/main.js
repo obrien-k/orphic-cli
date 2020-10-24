@@ -25,6 +25,15 @@ async function initGit(options) {
   }
   return;
 }
+async function initMongo(options) {
+  const result = await execa('mongo', ['init'], {
+    cwd: options.targetDirectory,
+  });
+  if (result.failed) {
+    return Promise.reject(new Error('Failed to initialize mongo'));
+  }
+  return;
+}
 
 export async function createProject(options) {
   options = {
@@ -55,6 +64,11 @@ export async function createProject(options) {
       title: 'Initialize git',
       task: () => initGit(options),
       enabled: () => options.git,
+    },
+    {
+      title: 'Initialize MongoDB',
+      task: () => initMongo(options),
+      enabled: () => options.mongo,
     },
     {
       title: 'Install dependencies',

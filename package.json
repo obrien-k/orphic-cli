@@ -1,11 +1,12 @@
 {
   "name": "@obrienk/orphic-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Mystify your peers with automated deployment and version control",
   "main": "src/index.js",
   "bin": {
     "@obrienk/orphic-cli": "bin/orphic-cli",
-    "orphic": "bin/orphic-cli"
+    "orphic": "bin/orphic-cli",
+    "bc-mvc": "bin/bc-mvc"
   },
   "publishConfig": {
     "access": "public"
@@ -30,11 +31,15 @@
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
     "pkg-install": "^1.0.0",
-    "express":"^4.0.0"
+    "express": "^4.0.0"
   },
   "files": [
     "bin/",
     "src/",
     "templates/"
-  ]
+  ],
+  "devDependencies": {
+    "bc-mvc": "0.0.1",
+    "vue": "^2.6.12"
+  }
 }
