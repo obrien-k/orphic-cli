@@ -17,4 +17,6 @@ If installed globally, invoke `orphic` via CLI and create a new base package wit
 
 ## Releases
 
+0.0.5 -- support for @obrienk/bc-mvc package.
+0.0.4 -- Added Plesk scaffolding.
 0.0.3 -- Verified working on Unix based machines/zsh. 
