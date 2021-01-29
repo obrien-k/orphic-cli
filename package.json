@@ -1,7 +1,7 @@
 {
-  "name": "@obrienk/orphic-cli",
-  "version": "0.0.5",
-  "description": "Mystify your peers with automated deployment and version control",
+  "name": "@orphic-inc/node-orphic-cli",
+  "version": "0.1.0",
+  "description": "Integrated deployments for TypeScript, JavaScript, and Next.JS projects",
   "main": "src/index.js",
   "bin": {
     "@obrienk/orphic-cli": "bin/orphic-cli",
