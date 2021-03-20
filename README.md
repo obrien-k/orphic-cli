@@ -3,7 +3,7 @@
 ## Information
 ## What is [Ludum Dare?](https://ldjam.com/) Why did [you](https://ldjam.com/users/kyle-o) enter it?
 
-For updates, see [Orphic's WEBSITE](https://orphic.space). Ludum Dare is a 19-year-old competition or game jam depending on how long you've been following it. Ludum Dare 48 starts in around 40 days [more info](https://ldjam.com/events/ludum-dare/48), Orphic INCORPORATED enters this game jam / compo when possible to keep our JS skills up to scratch. 
+For updates, see [Orphic's WEBSITE](https://orphic.space). Ludum Dare is a 19-year-old competition or game jam depending on how long you've been following it. Ludum Dare 48 starts in around 34 days and 12 hours [more info](https://ldjam.com/events/ludum-dare/48), Orphic INCORPORATED enters this game jam / compo when possible to keep our JS skills up to scratch. 
 
 # [Theme Voting is currently open](https://ldjam.com/events/ludum-dare/48/theme)
 
