@@ -11,31 +11,31 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href="https://orphic.sh">Orphic, Inc.</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Great minds {' '}
+          <code className={styles.code}>never think alike.</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://orphic.enterprises/welcome-to-the-internet" className={styles.card}>
+            <h3>Welcome to the Internet &rarr;</h3>
+            <p>Orphic's flagship podcast.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://orphic.enterprises/orphic-cli" className={styles.card}>
+            <h3>Orphic CLI &amper; Tudio API &rarr;</h3>
+            <p>CLI for devs, API for streams, learn more about our ecosystem!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://github.com/orphic-inc/"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>GitHub &rarr;</h3>
+            <p>Connect with our team on GitHub</p>
           </a>
 
           <a
@@ -44,7 +44,7 @@ export default function Home() {
           >
             <h3>Deploy &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Instantly deploy your Next.js site to a public URL with Vercel + <a href="https://orphic.enterprises/orphic-cli">Orphic CLI.</a>
             </p>
           </a>
         </div>
@@ -57,7 +57,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} /> + <img src="/orphic.svg" alt="Orphic Logo" className={styles.logo} /> 
         </a>
       </footer>
     </div>
